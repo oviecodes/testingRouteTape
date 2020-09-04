@@ -1,0 +1,23 @@
+{
+  "name": "testingwithtape",
+  "version": "1.0.0",
+  "description": "testing routes with Tape",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node test/index"
+  },
+  "author": "Godwin Alexander",
+  "license": "ISC",
+  "dependencies": {
+    "bent": "^7.3.10",
+    "express": "^4.17.1",
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "get-port": "^5.1.1",
+    "nock": "^13.0.4",
+    "nodemon": "^2.0.4",
+    "tape": "^5.0.1"
+  }
+}
